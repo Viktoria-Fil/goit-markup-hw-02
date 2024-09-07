@@ -60,7 +60,7 @@ a {
 }
 .hero-title {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -75,14 +75,19 @@ a {
   background: #4d5ae5;
   cursor: pointer;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
 
 .section {
   background: #f4f4fd;
 }
 .main-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -110,5 +115,8 @@ a {
 }
 
 .footer-text {
-  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
